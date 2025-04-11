@@ -1,0 +1,30 @@
+.header-h1 {
+  color: #122050;
+}
+
+header .row {
+  background-color: #E2E5DE;
+}
+
+.cat-link {
+  color: #122050;
+  text-decoration: none;
+}
+
+.cat-menu {
+  background-color: #D9D9D9;
+}
+.cat-menu .col {
+  border: 1px;
+}
+
+section {
+  padding-top: 20px;
+}
+
+.img-news-img {
+  max-width: 639px;
+  max-height: 432px;
+}
+
+/*# sourceMappingURL=style.css.map */
