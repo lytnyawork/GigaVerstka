@@ -19,12 +19,24 @@ header .row {
 }
 
 section {
-  padding-top: 20px;
+  margin-top: 10px;
 }
 
 .text-outline {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.img-news {
+  margin-bottom: 0;
+}
+
+.news-text-h6 {
+  color: #7B7B7B;
+}
+
+.container-news {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
