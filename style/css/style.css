@@ -6,6 +6,8 @@ header .row {
   background-color: #E2E5DE;
 }
 
+
+
 .cat-link {
   color: #122050;
   text-decoration: none;
@@ -37,6 +39,16 @@ section {
 
 .container-news {
   margin-top: 10px;
+}
+.news-main-link{
+  color: #7B7B7B;;
+}
+.news-main-link:hover{
+  color: #000;
+}
+.news-h2:hover{
+  color: red;
+
 }
 
 /*# sourceMappingURL=style.css.map */

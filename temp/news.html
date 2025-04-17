@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новость</title>
+    <link rel="stylesheet" href="/style/css/style.css">
+    <link rel="stylesheet" href="/style/boot/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+
+    <header class="container">
+        <div class="row">
+            <div class="col header-search">
+                <button type="button" class="btn btn-outline-link header-btn-search btn-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0">
+                        </path>
+                    </svg>
+                    
+                </button>
+            </div>
+            <div class="col-6">
+                <h1 class="text-center header-h1">GigaNews</h1>
+            </div>
+            <div class="col header-user text-end">
+                <button type="button" class="btn btn-outline-link header-btn-user btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person" viewBox="0 0 16 16">
+                        <path
+                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                    </svg>
+                    
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Modal --> 
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="authModalLabel">Вход или Регистрация</h5>       
+        </div>
+        <div class="modal-body">
+            <form id="auth-form">
+                <div class="form-group">
+                    <label for="email">Электронная почта</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" class="form-control" id="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mt-3">Войти</button>
+            </form>
+            <div class="text-center mt-3">
+                <p>Нет аккаунта? <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal" href="#">Зарегистрироваться</button></p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="registerModalLabel">Регистрация</h5>       
+        </div>
+        <div class="modal-body">
+            <form id="register-form">
+                <div class="form-group">
+                    <label for="username">Имя пользователя</label>
+                    <input type="text" class="form-control" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Электронная почта</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" class="form-control" id="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mt-3">Зарегистрироваться</button>
+            </form>
+            <div class="text-center mt-3">
+                <p>Уже есть аккаунт? <button data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-dismiss="modal" href="#">Войти</button></p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal --> 
+    
+    <section class="news-main">
+        <div class="container">
+            <div class="row">
+                <div class="col text-start">
+                  <p>12:31</p>
+                </div>
+                <div class="col text-end">
+                  <p>Космос</p>
+                </div>
+                <hr>
+            </div>     
+            <div class="row align-items-center">
+                <div class="col-7">
+                    <h2 class="news-title fw-bold">Днем на Южную Америку упадет метеорит размером в 4 футбольных поля</h2>
+                    <hr>
+                    <div>
+                        <h2>Введение</h2>
+    <p>Предполагается, что в ближайшие десятилетия Южная Америка может столкнуться с одной из самых значительных природных катастроф в истории: падением метеорита размером в четыре футбольных поля. Это событие, если оно произойдет, может иметь катастрофические последствия для экосистемы, климата и жизни людей на континенте.</p>
+
+    <h2>Что мы знаем о метеоритах?</h2>
+    <h3>Определение и происхождение</h3>
+    <p>Метеориты — это обломки астероидов или комет, которые падают на Землю. Они могут варьироваться в размерах от небольших камней до огромных объектов, способных вызвать значительные разрушения.</p>
+
+    <h3>Размер и скорость</h3>
+    <p>Метеорит размером в четыре футбольных поля — это объект длиной около 120 метров. При скорости 20 километров в секунду такой объект при столкновении с Землей выделит энергию, эквивалентную нескольким мегатоннам тротила.</p>
+
+    <h2>Потенциальные последствия падения метеорита</h2>
+    <h3>Экологические последствия</h3>
+    <p><strong>Уничтожение экосистем:</strong> Падение такого метеорита может привести к разрушению лесов, рек и других природных экосистем.</p>
+    <p><strong>Изменение климата:</strong> Падение метеорита может выбросить огромное количество пыли и газа в атмосферу, что приведет к глобальному потеплению или охлаждению.</p>
+
+    <h3>Социальные и экономические последствия</h3>
+    <p><strong>Человеческие жертвы:</strong> Падение метеорита может привести к десяткам тысяч жертв.</p>
+    <p><strong>Экономические потери:</strong> Разрушение инфраструктуры может привести к коллапсу экономики в затронутых регионах.</p>
+
+    <h3>Давление на ресурсы</h3>
+    <p>Снижение доступности ресурсов может привести к социальным конфликтам и миграции населения.</p>
+
+    <h2>Меры предосторожности и управление рисками</h2>
+    <h3>Наблюдение за небесными объектами</h3>
+    <p>Существуют различные программы и инициативы, направленные на мониторинг небесных объектов, угрожающих Земле.</p>
+
+    <h3>Подготовка и обучение</h3>
+    <p>Важно проводить обучение и подготовку населения к возможным сценариям.</p>
+
+    <h3>Международное сотрудничество</h3>
+    <p>Проблема падения метеорита требует международного сотрудничества для разработки технологий, способных отклонить угрожающие объекты.</p>
+
+    <h2>Заключение</h2>
+    <p>Падение метеорита размером в четыре футбольных поля на Южную Америку — это событие, которое может оказать разрушительное воздействие на континент. Несмотря на вероятность такого события, важно быть готовыми к подобным угрозам.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/style/boot/js/bootstrap.min.js"></script>
+</body>
+
+</html>
