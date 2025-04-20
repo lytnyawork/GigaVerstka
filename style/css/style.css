@@ -6,8 +6,6 @@ header .row {
   background-color: #E2E5DE;
 }
 
-
-
 .cat-link {
   color: #122050;
   text-decoration: none;
@@ -29,10 +27,6 @@ section {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.img-news {
-  margin-bottom: 0;
-}
-
 .news-text-h6 {
   color: #7B7B7B;
 }
@@ -40,15 +34,23 @@ section {
 .container-news {
   margin-top: 10px;
 }
-.news-main-link{
-  color: #7B7B7B;;
+
+.news-bar {
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
-.news-main-link:hover{
+
+.news-main-link {
+  color: #7B7B7B;
+  text-decoration: none;
+}
+
+.news-main-link:hover {
   color: #000;
 }
-.news-h2:hover{
-  color: red;
 
+.news-h2 {
+  margin-top: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
